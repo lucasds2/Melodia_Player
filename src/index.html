@@ -5,18 +5,36 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Melodia Player</title>
-  <link rel="stylesheet" href="../dist/output.css">
+  <link rel="stylesheet" href="./css/output.css">
+  <link rel="stylesheet" href="./main.css">
   <script src="./index.js"></script>
 </head>
 <body>
+  <div class="flex flex-col h-screen">
   <header class="w-full h-24 bg-indigo-700 text-white">
     <nav class="flex h-full justify-between items-center p-12">
-      <h2 class="text-3xl">MELODIA</h2>
-      <ul class="flex gap-10 text-xl">
+      <h2 class="text-2xl">MELODIA</h2>
+      <ul class="flex gap-10 text-base">
         <li>HOME</li>
         <li>PLAYLISTS</li>
+        <li>UPLOAD</li>
       </ul>
     </nav>
   </header>
+  <section class="py-32 grow">
+    <div class="mb-24 ml-10">
+      <h1 class="mb-10 text-xl font-bold">Músicas</h1>
+    </div>
+    <div class="mb-20 ml-10 text-xl font-bold">
+      <h1 class="mb-10">Playlists</h1>
+    </div>
+  </section>
+  <footer class="bg-indigo-700 text-white p-3 text-center">
+    <p class="border-b-2 border-white border-solid inline pb-1">
+      Criado por
+      <a class="text-blue-500" target="_blank" href="https://github.com/lucasds2">Lucas</a>
+    </p>
+  </footer>
+</div>
 </body>
 </html>
