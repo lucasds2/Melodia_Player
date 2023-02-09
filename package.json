@@ -1,0 +1,19 @@
+{
+  "name": "melodia-player",
+  "version": "1.0.0",
+  "description": "A music player made for you",
+  "main": "index.js",
+  "scripts": {
+    "watch": "postcss ./src/css/tailwind.css -o ./src/css/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucasds2/Melodia_Player.git"
+  },
+  "author": "Lucas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucasds2/Melodia_Player/issues"
+  },
+  "homepage": "https://github.com/lucasds2/Melodia_Player#readme"
+}
