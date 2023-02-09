@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: Lovelo;
+  src: url(../font/lovelo/Lovelo\ Black.otf);
+}
+
+nav h2 {
+  font-family: Lovelo, sans-serif;
+}
+
+nav li {
+  font-family: Poppins, sans-serif;
+  border-bottom: 2px solid transparent;
+  transition: 0.4s;
+}
+
+nav li:hover{
+  border-color: white;
+}
